@@ -44,4 +44,5 @@ create scenarios that do the following:
 
 <h2>Further Reading</h2>
 **provide info to further resources and highlight basic commands to get info such as man**
-Here is an [excellenct reference](https://git-scm.com/docs) on git commands.
+
+Here is an [excellent reference](https://git-scm.com/docs) on git commands.

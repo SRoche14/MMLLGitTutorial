@@ -14,6 +14,8 @@ As most developers use Git, it is the focus of this tutorial.
 
 You can think of Git as managing code between four locations: your local directories, the staging area, your local repository, and your repository on GitHub.
 
+![Image showing the "four locations" and basic commands Git uses to communicate between the locations.](./images/gitHighLevel.png "How Git Manages Code - at a High Level")
+
 <h2>Basic Commands</h2>
 **introduce basic commands and their purpose**
 

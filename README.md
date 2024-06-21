@@ -34,7 +34,7 @@ You can think of Git as managing code between four locations: your local directo
 <h2>Project 3</h2>
 **have students put above history management into practice**
 
-<h2>Collboration</h2>
+<h2>Collaboration</h2>
 **show how to use git with collaborators, particuarly on GitHub**
 
 <h2>Project 4</h2>

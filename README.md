@@ -95,12 +95,12 @@ sudo apt install git-all
 
 If you are on Windows, follow [this link](https://gitforwindows.org/).
 
-With Git on your machine of knowledge, it's time to tell it who it's dealing with. This is important for when you make commits because it will associate this information with your projects and allow you to access all of Git's capabilities/features.
+With Git downloaded on your machine of knowledge, it's time to tell it who it's dealing with. This is important for when you make commits because it will associate this information with your projects and allow you to access all of Git's capabilities/features.
 
 ```
 git config --global user.name "YOUR_USERNAME"
 
-git config --global user.email "im_satoshi@musk.com"
+git config --global user.email "super_cool@evencooler.com"
 
 git config --global --list # To check the info you just provided
 ```
@@ -115,7 +115,14 @@ You are now set up and looking sharp! Now buckle up.
 
 ## Basic Commands
 
+For now we are keeping it wicked local. After this we will join the Big Leagues and play with GitHub.
 
+Create a folder on your machine and navigate to it. Now we create a blank repository - where your code and records of changes are kept.
+
+```
+touch README.md    # To create a README file for the repository
+git init           # Initiates an empty git repository
+```
 
 
 ## Project 1

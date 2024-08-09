@@ -80,9 +80,43 @@ In summary, Git allows you to abstract away line-by-line changes in your code in
 
 But how? What is `HEAD`? What do the weird characters `c417407` mean? What is `origin/main`? How are Alice and Bob to communicate? How does Git know which files to track? Here there be dragons.
 
+## Set Up
+Wait, you may ask, I do not have Git installed! If this is the case, first make sure you have a [GitHub](https://github.com/) account.
+
+Then, check if you have Git installed:
+```
+git --version
+```
+
+If you are missing Git, install it! On Linux, you can do:
+```
+sudo apt install git-all
+```
+
+If you are on Windows, follow [this link](https://gitforwindows.org/).
+
+With Git on your machine of knowledge, it's time to tell it who it's dealing with. This is important for when you make commits because it will associate this information with your projects and allow you to access all of Git's capabilities/features.
+
+```
+git config --global user.name "YOUR_USERNAME"
+
+git config --global user.email "im_satoshi@musk.com"
+
+git config --global --list # To check the info you just provided
+```
+
+Also, please execute the following to change the 'master' branch to 'main'. More on this branch business later.
+
+```
+git config --global init.defaultBranch main
+```
+
+You are now set up and looking sharp! Now buckle up.
+
 ## Basic Commands
 
-Introduce basic commands and their purpose.
+
+
 
 ## Project 1
 

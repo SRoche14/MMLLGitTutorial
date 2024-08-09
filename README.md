@@ -111,7 +111,7 @@ Also, please execute the following to change the 'master' branch to 'main'. More
 git config --global init.defaultBranch main
 ```
 
-You are now set up and looking sharp! Now buckle up.
+You are now set up and looking sharp! Buckle up!
 
 ## Basic Commands
 
@@ -123,6 +123,8 @@ Create a folder on your machine and navigate to it. Now we create a blank reposi
 touch README.md    # To create a README file for the repository
 git init           # Initiates an empty git repository
 ```
+
+The README.md file is a markdown file describing your repository. In fact, you are reading a README.md file right now! You should spend some time looking up the markdown documentation so you can make one of these yourself later on...
 
 
 ## Project 1

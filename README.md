@@ -127,6 +127,12 @@ git init           # Initiates an empty git repository
 The README.md file is a markdown file describing your repository. In fact, you are reading a README.md file right now! You should spend some time looking up the markdown documentation so you can make one of these yourself later on...
 
 ```
-git 
+git pull # fetch info from a remote repo and add it to local repo
+git add # moves files from working directory to staging area
+git commit -m "Message Here" # takes staged snapshot and adds it to project history
+git push # puts current project to a remote repo
+git checkout # create a new branch for your project
+git merge # combine two branches into a single branch (i.e. put feature branch onto main branch)
+git clean # remove untracked files from working directory
 ```
 
